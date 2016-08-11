@@ -1,0 +1,117 @@
+/* Set the background of the login page */
+html * {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bg_login {
+    background: url("../img/gep_bg_crop.jpg") no-repeat;
+    background-size: 100%;
+    /*position: absolute;*/
+}
+
+/*For login area*/
+.login_area {
+    position: absolute;
+    top: 25%;
+    width: 35%;
+    right: 7%;
+    margin: 0 auto;
+    border: 2px solid #17907A;
+    border-radius: 5px;
+    background-color: #D8CECA;
+    box-shadow: 2px 2px 10px #17907A;
+    padding: 15px;
+}
+
+/*For introduction text of the login page*/
+.login_intro {
+    text-align: center;
+    font-weight: 400;
+    color: #17907A;
+}
+
+/*For the hr tag ruler*/
+.login_intro hr {
+    width: 95%;
+    color: #17907A;
+}
+
+/* Get rid of default css of forms */
+form * {
+    background: none;
+    /*border-radius: 20px;*/
+}
+
+form {
+    position: relative;
+    /*top: 100px;*/
+    /*left:40%;*/
+}
+
+input[type=text], input[type=password], input[type=submit], button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #17907A;
+    background: none;
+    /*    -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        padding: 0;*/
+    margin: 0;
+
+}
+
+/*Label styles*/
+label[for=user], label[for=password], label[for=USER_REMEMBER] {
+    color: #323941;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    /*border: 1px solid red;*/
+    text-align: right;
+    text-shadow: 3px 3px 7px rgba(45, 49, 23, 0.3);
+}
+
+label[for=USER_REMEMBER] {
+    color: #323941;
+    display: inline-block;
+    margin-bottom: 25px;
+    /*
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid red;
+    text-align: right;
+    */
+    text-shadow: 3px 3px 7px rgba(45, 49, 23, 0.3);
+}
+
+input[type=text], input[type=password] {
+    background: #17907A linear-gradient(#fff,#d6d6d6);
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: #e6e6e6;
+    box-shadow: 1px 1px 3px #17907A;
+
+}input[type=submit] {
+    background: #17907A linear-gradient(#17907A,#175F49);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: #E9E9E9;
+    box-shadow: 1px 1px 3px #17907A;
+}
+ /*Styles for the footer*/
+.footer_login {
+    position: absolute;
+    bottom: 10px;
+    right: 5%;
+    font-weight: 300;
+    color: #D8CECA;
+}
